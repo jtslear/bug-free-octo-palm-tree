@@ -1,6 +1,20 @@
 # Elixirlight
+## Goals
+* [ ] Learn Elixir
+* [ ] Learn Phoenix
+* [ ] Interface with a Raspberry Pi Zero
+* [ ] Configure this app to change the color of a connected light string
 
-To start your Phoenix app:
+## Stretch Goals
+* [ ] Do something fun to handle an idle choice
+* [ ] Utilize a timer and/or quick on/off feature
+* [ ] Embed this into the Pi using Nerves
+  * Can nerves provide any PWM capabilities?
+  * Is there any other way I can interface with the light string beyond
+    [ServoBlaster](https://github.com/richardghirst/PiBits/tree/master/ServoBlaster)?
+  * I'll need wireless working...
+
+To start the Phoenix app:
 
   * Install dependencies with `mix deps.get`
   * Install Node.js dependencies with `npm install`
