@@ -5,7 +5,7 @@ defmodule Elixirlight.ColorControllerTest do
 
   test "GET / ensure color picker exists", %{conn: conn} do
     conn = get conn, "/"
-    assert html_response(conn, 200)  =~ "value=\"#ff0000\""
+    assert conn.resp_body =~ "value=\"#ff0000\""
   end
 
   test "POST / to change the color", %{conn: conn} do
