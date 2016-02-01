@@ -14,6 +14,7 @@
     [ServoBlaster](https://github.com/richardghirst/PiBits/tree/master/ServoBlaster)?
   * I'll need wireless working...
 
+## Getting Started
 To start the Phoenix app:
 
   * Install dependencies with `mix deps.get`

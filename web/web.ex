@@ -16,12 +16,6 @@ defmodule Elixirlight.Web do
   below.
   """
 
-  def model do
-    quote do
-      # Define common model functionality
-    end
-  end
-
   def controller do
     quote do
       use Phoenix.Controller
@@ -50,13 +44,6 @@ defmodule Elixirlight.Web do
   def router do
     quote do
       use Phoenix.Router
-    end
-  end
-
-  def channel do
-    quote do
-      use Phoenix.Channel
-      import Elixirlight.Gettext
     end
   end
 
