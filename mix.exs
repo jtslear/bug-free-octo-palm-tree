@@ -28,10 +28,13 @@ defmodule Elixirlight.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:phoenix, "~> 1.1.0"},
-     {:phoenix_html, "~> 2.0"},
-     {:phoenix_live_reload, "~> 1.0", only: :dev},
-     {:gettext, "~> 0.9"},
-     {:cowboy, "~> 1.0"}]
+    [
+      {:color_utils, "0.2.0"},
+      {:cowboy, "~> 1.0"},
+      {:gettext, "~> 0.9"},
+      {:phoenix, "~> 1.1.0"},
+      {:phoenix_html, "~> 2.0"},
+      {:phoenix_live_reload, "~> 1.0", only: :dev},
+    ]
   end
 end
